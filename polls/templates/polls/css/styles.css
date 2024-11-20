@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
