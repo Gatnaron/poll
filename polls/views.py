@@ -28,3 +28,7 @@ def vote(request, question_id):
         selected_choice.votes += 1
         selected_choice.save()
         return redirect('polls:results', question_id=question.id)
+    
+def all_results(request):
+    questions = Question.objects.all()
+    return render(request, 'polls/all_results.html', {'questions': questions})
